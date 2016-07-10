@@ -19,13 +19,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 a{
 	color:#FB9900!important;
 }
-
  a:hover{
 	color:#FB9900!important;
 	text-decoration:none;
 	cursor:pointer;
 }
-
 
 
 
@@ -84,6 +82,9 @@ a{
 	-moz-background-size: auto!important;
 	-o-background-size: auto!important;
 	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
 }
 
 
@@ -217,19 +218,22 @@ a{
 	font-size: 88px;
 }
 #bloc-2 h4{
+	font-size: 22px;
+}
+#subscribe h2{
 	font-family: Lato;
 	font-weight: 300;
 }
-#bloc-3 h3{
+#bloc-4 h3{
 	font-size: 24px;
 }
-#bloc-3 p{
+#bloc-4 p{
 	font-size: 16px;
 }
-#bloc-4 p{
+#bloc-5 p{
 	font-size: 18px;
 }
-#bloc-5 p{
+#bloc-6 p{
 	font-size: 16px;
 }
 
@@ -587,12 +591,12 @@ a[data-lightbox]:hover img{
 }
 /* Text colour styles */
 
-.tc-outer-space{
-	color:#47454B!important;
-	!important}.tc-orange-ryb{
+.tc-orange-ryb{
 	color:#FB9900!important;
 }
-/* Button colour styles */
+.tc-outer-space{
+	color:#47454B!important;
+	!important}/* Button colour styles */
 
 .btn-orange-ryb{
 	background:#FB9900;
@@ -612,7 +616,10 @@ a[data-lightbox]:hover img{
 /* Bloc image backgrounds */
 
 .bg-NYC-Blurred-Traffic{
-	background-image:url('img/NYC-Blurred-Traffic.jpg');
+	background-image:url("img/NYC-Blurred-Traffic.jpg");
+}
+.bg-NYC-Blurred-Traffic{
+	background-image:url("img/NYC-Blurred-Traffic.jpg");
 }
 
 
